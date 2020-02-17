@@ -36,7 +36,7 @@ let command =
     ~summary:"p4pp: P4 preprocessor"
     spec
     (fun verbose includes defines file ->
-      let defines = List.map defines ~f:(fun d -> (d,Int64.zero)) in
+      let defines = List.map defines ~f:(fun d -> (d,Int64.one)) in
       preprocess verbose includes defines file)
 
 let () =
