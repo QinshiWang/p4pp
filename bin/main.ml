@@ -47,5 +47,5 @@ let command =
 
 let () =
   Format.printf "@[";
-  Command.For_unix.run ~version:"0.1.1" command;
+  Command.Base.run ~version:"0.1.1" command;
   Format.printf "@]"
