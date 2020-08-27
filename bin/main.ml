@@ -13,7 +13,7 @@
  * under the License.
  *)
 
-(* open Core *)
+open Core_kernel
 open Command.Let_syntax
 open P4pp
 
